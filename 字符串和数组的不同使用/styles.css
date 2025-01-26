@@ -1,0 +1,85 @@
+
+h1 {
+    text-align: center;
+    margin: 50px;
+    color: #eeeeee;
+}
+
+body {
+    background-color: #222831;
+}
+
+.main {
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+}
+
+.String,
+.Array {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+}
+
+ul {
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 1rem 0;
+    padding: 1.3rem;
+    background-color: #393e46;
+    color: #eeeeee;
+    border-radius: 1rem;
+    border: #393e46 solid 2px;
+    position: relative;
+}
+
+li:hover{
+    background-color: #00adb5;
+}
+
+li .nav {
+    display: none;
+    position: absolute;
+    top: 0%; 
+    left: 110%;
+    width: 100%;
+    background-color: #393e46;
+    color: #eeeeee;
+    padding: 1rem;
+    border: 0.2rem dashed #00adb5;
+    border-radius: 1rem;
+    z-index: 10;
+}
+
+li:hover .nav {
+    display: block; /* 鼠标悬停时显示 */
+}
+
+@media (max-width:768px) {
+    
+    .main {
+        display:block;
+        margin: 0 auto;
+        padding: 0;
+        left: 20%;
+    }
+
+.String,
+.Array {
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: flex-start;
+
+
+}
+
+
+}
