@@ -1,0 +1,83 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: #1e2022;
+}
+
+#img-caption {
+    color: #c9d6df;
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    padding: 15px;
+    padding-bottom: 0;
+    text-indent: 5%;
+    border-radius: 10px;
+    border: 2px dotted #52616b;
+    box-shadow: 1px 1px 2px 2px black;
+
+}
+
+.Juice_Wrld {
+    display: block;
+    text-align: center;
+    color: #52616b;
+    font-style: italic;
+    font-weight: 350;
+    margin: 10px;
+}
+
+h1 {
+    color: #e23e57;
+    text-align: center;
+
+}
+
+img {
+    display: block;
+    border-radius: 5px;
+}
+
+#image {
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+section {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    padding-left: 4%;
+    border-left: 6px solid #e23e57;
+    box-shadow: 2px 2px 5px;
+    border-radius: 5px;
+}
+
+section p {
+    color: #c9d6df;
+    margin: 20px;
+    margin-top: 10%;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+
+footer a {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    color: #52616b;
+    font-size: small;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+footer span {
+    display: block;
+    text-align: right;
+}
