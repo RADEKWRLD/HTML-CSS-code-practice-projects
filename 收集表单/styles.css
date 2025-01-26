@@ -1,0 +1,70 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color:dimgrey;
+
+}
+
+label{
+    display: block;
+}
+
+h1,p{
+padding-top: 10px;
+text-align:center;
+font-weight:200;
+background: linear-gradient(to right, rgba(196, 154, 17, 0.849), #ffff00b4);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke: 1px;
+}
+
+h1+p{
+    font-style:italic;
+}
+
+fieldset{
+    margin:0 auto;
+    min-width: 300px;
+    max-width: 500px;
+    width: 65%;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+select{
+    width: 100%;
+    color: dimgray;
+    font-weight: bolder;
+}
+
+select option{
+    color: black;
+    font-weight: bolder;
+}
+
+input{
+    background-color: rgba(196, 154, 17, 0.849);
+    color: rgba(255, 250, 240, 0.858);
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+}
+
+#submit{
+display: block;
+    width: 60%;
+    margin: 10px auto;
+    height: 40px;
+    
+}
+
+input[type="radio"],input[type="checkbox"]{
+    width:unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+textarea{
+    width: 100%;
+
+}
