@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    /*分为两类：“content-box，border-box
+    content为默认，显示内容为照片实际大小，未加边框和padding
+    border为全局，显示内容为全部大小，可填充在父级容器中*/
+  }
+  
+  
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #f5f6f7;
+  }
+  
+  .header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-bottom: 4px solid #fdb347;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-direction:row;
+    /*
+    row (default): 从左到右排列
+row-reverse：主轴为水平方向，起点在右端。
+column：主轴为垂直方向，起点在上沿。
+column-reverse：主轴为垂直方向，起点在下沿。
+    */
+    flex-wrap:wrap;
+    /*设置当占满一行时换行*/
+    justify-content:center;
+    align-items:center;
+    gap: 16px;
+        /*增加中间间隙*/
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+
+.gallery img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit:cover;
+    /*填充容器，cover为剪裁*/
+    border-radius:10px;
+}
+
+.gallery::after{
+    content:"";
+    width:350px;
+  }
+  /*伪元素选择器，选定gallery后面的内容*/
